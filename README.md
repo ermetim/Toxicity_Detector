@@ -71,3 +71,42 @@
 - PyTorch и PyTorch Lightning для разработки модели.
 - Transformers от Hugging Face для работы с моделью DistilBERT.
 - Kaggle для загрузки данных.
+
+## Project Structure
+
+.
+├── LICENSE
+├── README.md
+├── conf
+│   ├── config.yaml
+│   ├── data_loading
+│   │   └── data_loading.yaml
+│   ├── logging
+│   │   └── logging.yaml
+│   ├── model
+│   │   └── model.yaml
+│   └── training
+│       └── training.yaml
+├── data
+│   ├── train.csv
+│   └── train.csv.dvc
+├── docs
+│   ├── Makefile
+│   ├── _build
+│   ├── _static
+│   ├── _templates
+│   ├── conf.py
+│   ├── download_data.rst
+│   ├── index.rst
+│   ├── make.bat
+│   └── trainer.rst
+├── models
+├── poetry.lock
+├── pyproject.toml
+├── scripts
+│   └── download_data.py
+└── toxic_detector
+    ├── train.py
+    └── trainer.py
+
+13 directories, 20 files
