@@ -1,0 +1,2 @@
+save_dir: "../logs"
+name: "distilbert_logs"

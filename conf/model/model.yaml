@@ -1,0 +1,3 @@
+tokenizer: "distilbert-base-uncased"
+pretrained_model: "distilbert-base-uncased"
+max_length: 128
