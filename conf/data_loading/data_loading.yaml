@@ -1,4 +1,0 @@
-data_path: "../data/train.csv"
-label_column: "toxic"
-train_data_fraction: 0.8
-random_state: 42
